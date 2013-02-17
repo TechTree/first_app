@@ -28,9 +28,9 @@ group :production do
   gem 'pg'
 end
 
-#group :development do
- # gem 'sqlite3', '1.3.7'
-#end
+group :development do
+  gem 'sqlite3', '1.3.5'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
